@@ -1,0 +1,62 @@
+
+# Name of your site (displayed in the header)
+name: Hassan and Associates
+
+# Short bio or description (displayed in the header)
+description: Income tax, Company law and Business service provider in Bangladesh
+
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: https://diary.hassan.com.bd/images/logos/logo.png
+
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: forms/d/1RRf0pM6bHy61ElT446p4VgQ1-YSFzO53U13gylpSkEQ/edit?usp=sharing
+  facebook: hassan.com.bd
+  flickr: 
+  github: 
+  instagram: 
+  linkedin: company/hassanassociates
+  pinterest: 
+  twitter: hasanassociates
+  youtube: 
+  rss: 123xyz
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus: hassanandassociates
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-66934702-27
+
+# Your website URL 
+# Used for Sitemap.xml and your RSS feed
+url: 
+     
+baseurl: 
+#
+# !! You don't need to change any of the configuration flags below !!
+#
+
+permalink: /:title/
+
+# Build settings
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+

@@ -1,1 +1,1 @@
-# diary-lone
+# diary-lone (inlone-ruby)
